@@ -73,7 +73,7 @@ const Quiz = () => {
         <div className="index">{index+1} из {data.length} вопросов</div>
         </>}
         {result? <><h2>Вы заработали {score} out of {data.length}</h2>
-        <button onClick={reset}>Reset</button></>: <></>}
+        <button onClick={reset}>Попробовать снова</button></>: <></>}
     </div>
   )
 }
